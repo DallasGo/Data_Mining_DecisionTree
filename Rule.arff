@@ -1,0 +1,51 @@
+@relation Rule-weka.filters.unsupervised.attribute.Remove-R1
+
+@attribute 'Transportation expense' numeric
+@attribute 'Distance from Residence to Work' numeric
+@attribute Age numeric
+@attribute Education numeric
+@attribute Son numeric
+@attribute 'Social drinker' numeric
+@attribute 'Social smoker' numeric
+@attribute Pet numeric
+@attribute Weight numeric
+@attribute 'Absenteeism time in hours' numeric
+@attribute Absent {FALSE,TRUE}
+
+@data
+235,11,37,3,1,0,0,1,88,121,FALSE
+235,29,48,1,1,0,1,5,88,25,FALSE
+179,51,38,1,0,1,0,0,89,482,FALSE
+118,14,40,1,1,1,0,8,98,0,FALSE
+235,20,43,1,1,1,0,0,106,104,FALSE
+189,29,33,1,2,0,0,2,69,72,FALSE
+279,5,39,1,2,1,1,0,68,30,FALSE
+231,35,39,1,2,1,0,2,100,0,TRUE
+228,14,58,1,2,0,0,1,65,262,FALSE
+361,52,28,1,1,1,0,4,80,186,FALSE
+289,36,33,1,2,1,0,1,90,450,TRUE
+233,51,31,2,1,1,0,8,68,34,FALSE
+369,17,31,1,3,1,0,0,70,183,FALSE
+155,12,34,1,2,1,0,0,95,476,FALSE
+291,31,40,1,1,1,0,1,73,253,FALSE
+118,15,46,1,2,1,1,0,75,16,FALSE
+179,22,40,2,2,0,1,0,63,126,FALSE
+330,16,28,2,0,0,0,0,84,118,FALSE
+291,50,32,1,0,1,0,0,65,6,FALSE
+260,50,36,1,4,1,0,0,65,306,FALSE
+268,11,33,2,0,0,0,0,79,16,FALSE
+179,26,30,3,0,0,0,0,56,253,FALSE
+378,49,36,1,2,0,1,4,65,40,FALSE
+246,25,41,1,0,1,0,0,67,254,FALSE
+235,16,32,3,0,0,0,0,75,42,FALSE
+300,26,43,1,2,1,1,1,77,83,TRUE
+184,42,27,1,0,0,0,0,58,27,FALSE
+225,26,28,1,1,0,0,2,69,347,FALSE
+225,15,41,4,2,1,0,2,94,21,TRUE
+157,27,29,1,0,1,1,0,75,31,FALSE
+388,15,50,1,0,0,0,0,76,16,FALSE
+289,48,49,1,0,0,0,2,108,16,FALSE
+248,25,47,1,2,0,0,1,86,73,FALSE
+118,10,37,1,0,0,0,0,83,344,FALSE
+179,45,53,1,1,0,0,1,77,0,FALSE
+118,13,50,1,1,1,0,0,98,311,FALSE
